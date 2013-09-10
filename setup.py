@@ -45,6 +45,7 @@ setup(
     author='Kenneth Reitz',
     author_email='me@kennethreitz.com',
     url='http://python-tablib.org',
+    zip_safe=True,
     packages=[
         'tablib', 'tablib.formats',
         'tablib.packages',
